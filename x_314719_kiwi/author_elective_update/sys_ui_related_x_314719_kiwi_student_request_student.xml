@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_314719_kiwi_student_request" version="2" view="Student">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Student Request - Student" name="x_314719_kiwi_student_request" related_list="NULL" sys_domain="global" view="45dd9bb1074c90103032f1d08c1ed0de">e91477f1078c90103032f1d08c1ed08f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 11:25:25</sys_created_on>
+            <sys_id>a51477f1078c90103032f1d08c1ed090</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 11:25:25</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Student Request - Student</calculated_name>
+            <filter/>
+            <name>x_314719_kiwi_student_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 11:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e91477f1078c90103032f1d08c1ed08f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Student Request - Student</sys_name>
+            <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+            <sys_update_name>sys_ui_related_x_314719_kiwi_student_request_Student</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 11:25:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Student" name="Student">45dd9bb1074c90103032f1d08c1ed0de</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_ui_related_x_314719_kiwi_student_request_Student</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_314719_kiwi_student_request" version="2" view="Student"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Student Request - Student" name="x_314719_kiwi_student_request" related_list="NULL" sys_domain="global" view="45dd9bb1074c90103032f1d08c1ed0de">e91477f1078c90103032f1d08c1ed08f</list_id><order_by/><position>0</position><related_list/><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 11:25:25</sys_created_on><sys_id>a51477f1078c90103032f1d08c1ed090</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 11:25:25</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Student Request - Student</calculated_name><filter/><name>x_314719_kiwi_student_request</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-09 11:25:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e91477f1078c90103032f1d08c1ed08f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Student Request - Student</sys_name><sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package><sys_policy/><sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope><sys_update_name>sys_ui_related_x_314719_kiwi_student_request_Student</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-09 11:25:25</sys_updated_on><sys_user/><view display_value="Student" name="Student">45dd9bb1074c90103032f1d08c1ed0de</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>331407530</payload_hash>
+        <record_name>Student Request</record_name>
+        <reverted_from/>
+        <source>1c76e0c107c010103032f1d08c1ed0a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 11:25:25</sys_created_on>
+        <sys_id>2114b7f1078c90103032f1d08c1ed059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715eb002400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 11:25:25</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>291477f1e08c90103c0e3fb6867ae291</update_guid>
+        <update_guid_history>291477f1e08c90103c0e3fb6867ae291:331407530,4053fbb1418c90102fec550383355508:2070113914,e1233f71178c9010a77d64055a69d358:-462957710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 10:57:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>00fffba5b30a460084cd1acf78801000</sys_id>
+        <sys_metadata>e91477f1078c90103032f1d08c1ed08f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Request - Student</sys_name>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_parent display_value="Student Request">42a66cc107c010103032f1d08c1ed05c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_scope_delete display_value="">5f10c5a1fb9f4486b582911ff37412d1</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_314719_kiwi_student_request_Student</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_314719_kiwi_student_request_Student">2114b7f1078c90103032f1d08c1ed059</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 10:57:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

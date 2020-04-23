@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="count" table="x_314719_kiwi_sales" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>count</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>0</label>
+            <language>en</language>
+            <name>x_314719_kiwi_sales</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 05:33:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66a67c66078414103032f1d08c1ed03a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 05:34:12</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>count</element>
+            <name>x_314719_kiwi_sales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 05:33:15</sys_created_on>
+            <sys_id>aea67c66078414103032f1d08c1ed03a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>count</sys_name>
+            <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+            <sys_update_name>sys_choice_x_314719_kiwi_sales_count</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 05:33:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

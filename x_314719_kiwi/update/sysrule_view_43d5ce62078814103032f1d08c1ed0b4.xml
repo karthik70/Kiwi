@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Student Request View Rule</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+
+if(gs.getUser().hasRole('x_314719_kiwi.student')  ){
+answer = "students"; //change view name
+}
+	else if (gs.getUser().hasRole('x_314719_kiwi.tutor')  ){
+answer = "teachers"; //change view name
+}
+
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 11:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43d5ce62078814103032f1d08c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Request View Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sysrule_view_43d5ce62078814103032f1d08c1ed0b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 11:20:09</sys_updated_on>
+        <table>x_314719_kiwi_student_request</table>
+        <view/>
+    </sysrule_view>
+</record_update>

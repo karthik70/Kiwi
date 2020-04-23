@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ef5686a2078814103032f1d08c1ed0ef" sys_domain="global" table="x_314719_kiwi_student_request" version="3" view="Students">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>275686a2078814103032f1d08c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>a75686a2078814103032f1d08c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_for_lesson</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>2b5686a2078814103032f1d08c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_id</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>ab5686a2078814103032f1d08c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date_time</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>2f5686a2078814103032f1d08c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date_time</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>af5686a2078814103032f1d08c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>235686a2078814103032f1d08c1ed0f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>a35686a2078814103032f1d08c1ed0f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_status</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_id>275686a2078814103032f1d08c1ed0f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_kiwi_student_request" sys_domain="global" view="50e106ae074814103032f1d08c1ed005">ef5686a2078814103032f1d08c1ed0ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_314719_kiwi_student_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-11 11:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef5686a2078814103032f1d08c1ed0ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_314719_kiwi_student_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+            <sys_update_name>sys_ui_section_ef5686a2078814103032f1d08c1ed0ef</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-11 11:21:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Students" name="Students">50e106ae074814103032f1d08c1ed005</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

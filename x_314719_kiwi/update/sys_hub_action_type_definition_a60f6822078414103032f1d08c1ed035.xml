@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>create_lessons_from_sales</internal_name>
+        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.tutor}}","label":"action➛Tutor","type":"action","ref":""},{"name":"{{action.student}}","label":"action➛Student","type":"action","ref":""},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":""},{"name":"{{action.start_date_time}}","label":"action➛Start Date Time","type":"action","ref":""},{"name":"{{action.end_date_time}}","label":"action➛End Date Time","type":"action","ref":""},{"name":"{{action.sales_number}}","label":"action➛Sales Number","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>42f838e6078414103032f1d08c1ed0a4</latest_snapshot>
+        <master_snapshot>e9d0bc62078414103032f1d08c1ed0e1</master_snapshot>
+        <name>Create Lessons From Sales</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 04:59:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a60f6822078414103032f1d08c1ed035</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Create Lessons From Sales</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a60f6822078414103032f1d08c1ed035</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:21</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a60f6822078414103032f1d08c1ed035"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a60f6822078414103032f1d08c1ed035"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=a60f6822078414103032f1d08c1ed035^sys_idNOT IN71107462078414103032f1d08c1ed0b0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</action>
+        <cid>e984bcdc-0a1a-4966-aefa-91b3447f6063</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create Lessons</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>71107462078414103032f1d08c1ed0b0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:12:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71107462078414103032f1d08c1ed0b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71107462078414103032f1d08c1ed0b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>71107462078414103032f1d08c1ed0b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:05:53</sys_updated_on>
+        <value/>
+        <variable display_value="">e78d203667003200553fafb49585ef63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71107462078414103032f1d08c1ed0b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>79107462078414103032f1d08c1ed0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <value>x_314719_kiwi_lesson</value>
+        <variable display_value="">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=71107462078414103032f1d08c1ed0b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>71107462078414103032f1d08c1ed0b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>39107462078414103032f1d08c1ed0b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:12:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>language={{action.language}}^sales_number={{action.sales_number}}^student={{action.student}}^tutor={{action.tutor}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>71107462078414103032f1d08c1ed0b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>fd107462078414103032f1d08c1ed0b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=a60f6822078414103032f1d08c1ed035^sys_idNOT IN35107462078414103032f1d08c1ed0a8,3d107462078414103032f1d08c1ed091,a9107462078414103032f1d08c1ed088,b5107462078414103032f1d08c1ed097"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=4b11971d-c2b6-407e-8d79-8853332a579c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sales_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Sales Number</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</model>
+        <model_id>a60f6822078414103032f1d08c1ed035</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_314719_kiwi_sales">x_314719_kiwi_sales</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>35107462078414103032f1d08c1ed0a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=64e22fda-5757-4cc7-bb3c-06ece5befca4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>student</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Student</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</model>
+        <model_id>a60f6822078414103032f1d08c1ed035</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:31</sys_created_on>
+        <sys_id>3d107462078414103032f1d08c1ed091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=09cb46af-a0f4-4d66-9c49-d04bf7caa71b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tutor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Tutor</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</model>
+        <model_id>a60f6822078414103032f1d08c1ed035</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:31</sys_created_on>
+        <sys_id>a9107462078414103032f1d08c1ed088</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88dd26a4-8c6b-4c46-9976-10172358e3c4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>language</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Language</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</model>
+        <model_id>a60f6822078414103032f1d08c1ed035</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>b5107462078414103032f1d08c1ed097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=a60f6822078414103032f1d08c1ed035^sys_idNOT IN71107462078414103032f1d08c1ed0b0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</action>
+        <cid>e984bcdc-0a1a-4966-aefa-91b3447f6063</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create Lessons</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>71107462078414103032f1d08c1ed0b0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:12:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71107462078414103032f1d08c1ed0b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71107462078414103032f1d08c1ed0b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>71107462078414103032f1d08c1ed0b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:05:53</sys_updated_on>
+        <value/>
+        <variable display_value="">e78d203667003200553fafb49585ef63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71107462078414103032f1d08c1ed0b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>79107462078414103032f1d08c1ed0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <value>x_314719_kiwi_lesson</value>
+        <variable display_value="">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=71107462078414103032f1d08c1ed0b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>71107462078414103032f1d08c1ed0b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>39107462078414103032f1d08c1ed0b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:12:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>language={{action.language}}^sales_number={{action.sales_number}}^student={{action.student}}^tutor={{action.tutor}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>71107462078414103032f1d08c1ed0b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>fd107462078414103032f1d08c1ed0b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035^sys_idNOT IN35107462078414103032f1d08c1ed090,7d107462078414103032f1d08c1ed09b,f1107462078414103032f1d08c1ed096,f9107462078414103032f1d08c1ed0ac"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tutor</element>
+        <help/>
+        <hint/>
+        <label>Tutor</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:31</sys_created_on>
+        <sys_id>35107462078414103032f1d08c1ed090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>language</element>
+        <help/>
+        <hint/>
+        <label>Language</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>7d107462078414103032f1d08c1ed09b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>student</element>
+        <help/>
+        <hint/>
+        <label>Student</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>f1107462078414103032f1d08c1ed096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sales_number</element>
+        <help/>
+        <hint/>
+        <label>Sales Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a60f6822078414103032f1d08c1ed035</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:04:32</sys_created_on>
+        <sys_id>f9107462078414103032f1d08c1ed0ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:04:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=a60f6822078414103032f1d08c1ed035^sys_idNOT IN3dd0fc62078414103032f1d08c1ed05e"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3dd0fc62078414103032f1d08c1ed05e","name":"plan"}}</plan>
+        <snapshot>42f838e6078414103032f1d08c1ed0a4</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3dd0fc62078414103032f1d08c1ed05e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:22</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_lessons_from_sales</internal_name>
+        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.tutor}}","label":"action➛Tutor","type":"action","ref":""},{"name":"{{action.student}}","label":"action➛Student","type":"action","ref":""},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":""},{"name":"{{action.start_date_time}}","label":"action➛Start Date Time","type":"action","ref":""},{"name":"{{action.end_date_time}}","label":"action➛End Date Time","type":"action","ref":""},{"name":"{{action.sales_number}}","label":"action➛Sales Number","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Create Lessons From Sales</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Create Lessons From Sales">a60f6822078414103032f1d08c1ed035</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9d0bc62078414103032f1d08c1ed0e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:47</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e9d0bc62078414103032f1d08c1ed0e1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e9d0bc62078414103032f1d08c1ed0e1"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=e9d0bc62078414103032f1d08c1ed0e1^sys_idNOT INa9d0fc62078414103032f1d08c1ed02b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Lessons From Sales">e9d0bc62078414103032f1d08c1ed0e1</action>
+        <cid>e984bcdc-0a1a-4966-aefa-91b3447f6063</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create Lessons</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>a9d0fc62078414103032f1d08c1ed02b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9d0fc62078414103032f1d08c1ed02b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a9d0fc62078414103032f1d08c1ed02b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>3dd0fc62078414103032f1d08c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <value>x_314719_kiwi_lesson</value>
+        <variable display_value="">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9d0fc62078414103032f1d08c1ed02b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>a9d0fc62078414103032f1d08c1ed02b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>f5d0fc62078414103032f1d08c1ed02f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>language={{action.language}}^sales_number={{action.sales_number}}^student={{action.student}}^tutor={{action.tutor}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>a9d0fc62078414103032f1d08c1ed02b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>b9d0fc62078414103032f1d08c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=e9d0bc62078414103032f1d08c1ed0e1^sys_idNOT IN29d0bc62078414103032f1d08c1ed0e2,29d0fc62078414103032f1d08c1ed013,e1d0fc62078414103032f1d08c1ed024,edd0fc62078414103032f1d08c1ed00d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=09cb46af-a0f4-4d66-9c49-d04bf7caa71b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tutor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Tutor</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">e9d0bc62078414103032f1d08c1ed0e1</model>
+        <model_id>e9d0bc62078414103032f1d08c1ed0e1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:47</sys_created_on>
+        <sys_id>29d0bc62078414103032f1d08c1ed0e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88dd26a4-8c6b-4c46-9976-10172358e3c4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>language</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Language</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">e9d0bc62078414103032f1d08c1ed0e1</model>
+        <model_id>e9d0bc62078414103032f1d08c1ed0e1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>29d0fc62078414103032f1d08c1ed013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=4b11971d-c2b6-407e-8d79-8853332a579c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sales_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Sales Number</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">e9d0bc62078414103032f1d08c1ed0e1</model>
+        <model_id>e9d0bc62078414103032f1d08c1ed0e1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_314719_kiwi_sales">x_314719_kiwi_sales</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>e1d0fc62078414103032f1d08c1ed024</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=64e22fda-5757-4cc7-bb3c-06ece5befca4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>student</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Student</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Lessons From Sales">e9d0bc62078414103032f1d08c1ed0e1</model>
+        <model_id>e9d0bc62078414103032f1d08c1ed0e1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>edd0fc62078414103032f1d08c1ed00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=e9d0bc62078414103032f1d08c1ed0e1^sys_idNOT INa9d0fc62078414103032f1d08c1ed02b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Lessons From Sales">e9d0bc62078414103032f1d08c1ed0e1</action>
+        <cid>e984bcdc-0a1a-4966-aefa-91b3447f6063</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create Lessons</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>a9d0fc62078414103032f1d08c1ed02b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9d0fc62078414103032f1d08c1ed02b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a9d0fc62078414103032f1d08c1ed02b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>3dd0fc62078414103032f1d08c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <value>x_314719_kiwi_lesson</value>
+        <variable display_value="">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9d0fc62078414103032f1d08c1ed02b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>a9d0fc62078414103032f1d08c1ed02b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>f5d0fc62078414103032f1d08c1ed02f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:43:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>language={{action.language}}^sales_number={{action.sales_number}}^student={{action.student}}^tutor={{action.tutor}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>a9d0fc62078414103032f1d08c1ed02b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>b9d0fc62078414103032f1d08c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1^sys_idNOT IN65d0fc62078414103032f1d08c1ed012,69d0fc62078414103032f1d08c1ed028,add0fc62078414103032f1d08c1ed017,e5d0bc62078414103032f1d08c1ed0e7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>student</element>
+        <help/>
+        <hint/>
+        <label>Student</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>65d0fc62078414103032f1d08c1ed012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sales_number</element>
+        <help/>
+        <hint/>
+        <label>Sales Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>69d0fc62078414103032f1d08c1ed028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>language</element>
+        <help/>
+        <hint/>
+        <label>Language</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>add0fc62078414103032f1d08c1ed017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tutor</element>
+        <help/>
+        <hint/>
+        <label>Tutor</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e9d0bc62078414103032f1d08c1ed0e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 05:07:48</sys_created_on>
+        <sys_id>e5d0bc62078414103032f1d08c1ed0e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kiwi" source="x_314719_kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kiwi">9076e0c107c010103032f1d08c1ed0a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 05:07:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
